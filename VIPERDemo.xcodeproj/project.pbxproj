@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC855E0429F16D7400E81D0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC855E0329F16D7400E81D0C /* AppDelegate.swift */; };
+		DC855E0629F16D7400E81D0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC855E0529F16D7400E81D0C /* SceneDelegate.swift */; };
+		DC855E0B29F16D7400E81D0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC855E0929F16D7400E81D0C /* Main.storyboard */; };
+		DC855E0D29F16D7500E81D0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC855E0C29F16D7500E81D0C /* Assets.xcassets */; };
+		DC855E1029F16D7500E81D0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC855E0E29F16D7500E81D0C /* LaunchScreen.storyboard */; };
+		DC855E1829F1746800E81D0C /* PostListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC855E1729F1746800E81D0C /* PostListViewController.swift */; };
+		DC855E1C29F174C100E81D0C /* PostListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC855E1B29F174C100E81D0C /* PostListPresenter.swift */; };
+		DC855E1E29F174D200E81D0C /* PostListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC855E1D29F174D200E81D0C /* PostListInteractor.swift */; };
+		DC855E2029F174DE00E81D0C /* PostListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC855E1F29F174DE00E81D0C /* PostListRouter.swift */; };
+		DC855E2529F1754C00E81D0C /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC855E2429F1754C00E81D0C /* PostModel.swift */; };
+		DC855E2829F1761100E81D0C /* PostListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC855E2729F1761100E81D0C /* PostListProtocols.swift */; };
+		DC855E3729F2BC0700E81D0C /* PostDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC855E3629F2BC0700E81D0C /* PostDetailRouter.swift */; };
+		DC855E3929F2BC1900E81D0C /* PostDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC855E3829F2BC1900E81D0C /* PostDetailPresenter.swift */; };
+		DC855E3B29F2BC3000E81D0C /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC855E3A29F2BC3000E81D0C /* PostDetailViewController.swift */; };
+		DC855E4029F2BDA900E81D0C /* PostDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC855E3F29F2BDA900E81D0C /* PostDetailProtocols.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC855E0029F16D7400E81D0C /* VIPERDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPERDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC855E0329F16D7400E81D0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC855E0529F16D7400E81D0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DC855E0A29F16D7400E81D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC855E0C29F16D7500E81D0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC855E0F29F16D7500E81D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC855E1129F16D7500E81D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC855E1729F1746800E81D0C /* PostListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewController.swift; sourceTree = "<group>"; };
+		DC855E1B29F174C100E81D0C /* PostListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListPresenter.swift; sourceTree = "<group>"; };
+		DC855E1D29F174D200E81D0C /* PostListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListInteractor.swift; sourceTree = "<group>"; };
+		DC855E1F29F174DE00E81D0C /* PostListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListRouter.swift; sourceTree = "<group>"; };
+		DC855E2429F1754C00E81D0C /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		DC855E2729F1761100E81D0C /* PostListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListProtocols.swift; sourceTree = "<group>"; };
+		DC855E3629F2BC0700E81D0C /* PostDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailRouter.swift; sourceTree = "<group>"; };
+		DC855E3829F2BC1900E81D0C /* PostDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailPresenter.swift; sourceTree = "<group>"; };
+		DC855E3A29F2BC3000E81D0C /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
+		DC855E3F29F2BDA900E81D0C /* PostDetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailProtocols.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC855DFD29F16D7400E81D0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC855DF729F16D7400E81D0C = {
+			isa = PBXGroup;
+			children = (
+				DC855E0229F16D7400E81D0C /* VIPERDemo */,
+				DC855E0129F16D7400E81D0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC855E0129F16D7400E81D0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC855E0029F16D7400E81D0C /* VIPERDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC855E0229F16D7400E81D0C /* VIPERDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DC855E0329F16D7400E81D0C /* AppDelegate.swift */,
+				DC855E0529F16D7400E81D0C /* SceneDelegate.swift */,
+				DC855E2629F1755300E81D0C /* Entities */,
+				DC855E3529F2BBD000E81D0C /* PostDetail */,
+				DC855E1929F1747900E81D0C /* PostList */,
+				DC855E0929F16D7400E81D0C /* Main.storyboard */,
+				DC855E0C29F16D7500E81D0C /* Assets.xcassets */,
+				DC855E0E29F16D7500E81D0C /* LaunchScreen.storyboard */,
+				DC855E1129F16D7500E81D0C /* Info.plist */,
+			);
+			path = VIPERDemo;
+			sourceTree = "<group>";
+		};
+		DC855E1929F1747900E81D0C /* PostList */ = {
+			isa = PBXGroup;
+			children = (
+				DC855E2729F1761100E81D0C /* PostListProtocols.swift */,
+				DC855E2329F1750600E81D0C /* Router */,
+				DC855E2229F174FF00E81D0C /* Interactor */,
+				DC855E2129F174F800E81D0C /* Presenter */,
+				DC855E1A29F1749B00E81D0C /* View */,
+			);
+			path = PostList;
+			sourceTree = "<group>";
+		};
+		DC855E1A29F1749B00E81D0C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC855E1729F1746800E81D0C /* PostListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC855E2129F174F800E81D0C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DC855E1B29F174C100E81D0C /* PostListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DC855E2229F174FF00E81D0C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DC855E1D29F174D200E81D0C /* PostListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		DC855E2329F1750600E81D0C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				DC855E1F29F174DE00E81D0C /* PostListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		DC855E2629F1755300E81D0C /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				DC855E2429F1754C00E81D0C /* PostModel.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		DC855E3529F2BBD000E81D0C /* PostDetail */ = {
+			isa = PBXGroup;
+			children = (
+				DC855E3F29F2BDA900E81D0C /* PostDetailProtocols.swift */,
+				DC855E3C29F2BC3600E81D0C /* Router */,
+				DC855E3D29F2BC3E00E81D0C /* Presenter */,
+				DC855E3E29F2BC4B00E81D0C /* View */,
+			);
+			path = PostDetail;
+			sourceTree = "<group>";
+		};
+		DC855E3C29F2BC3600E81D0C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				DC855E3629F2BC0700E81D0C /* PostDetailRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		DC855E3D29F2BC3E00E81D0C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DC855E3829F2BC1900E81D0C /* PostDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DC855E3E29F2BC4B00E81D0C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC855E3A29F2BC3000E81D0C /* PostDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC855DFF29F16D7400E81D0C /* VIPERDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC855E1429F16D7500E81D0C /* Build configuration list for PBXNativeTarget "VIPERDemo" */;
+			buildPhases = (
+				DC855DFC29F16D7400E81D0C /* Sources */,
+				DC855DFD29F16D7400E81D0C /* Frameworks */,
+				DC855DFE29F16D7400E81D0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VIPERDemo;
+			productName = VIPERDemo;
+			productReference = DC855E0029F16D7400E81D0C /* VIPERDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC855DF829F16D7400E81D0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DC855DFF29F16D7400E81D0C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = DC855DFB29F16D7400E81D0C /* Build configuration list for PBXProject "VIPERDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC855DF729F16D7400E81D0C;
+			productRefGroup = DC855E0129F16D7400E81D0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC855DFF29F16D7400E81D0C /* VIPERDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC855DFE29F16D7400E81D0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC855E1029F16D7500E81D0C /* LaunchScreen.storyboard in Resources */,
+				DC855E0D29F16D7500E81D0C /* Assets.xcassets in Resources */,
+				DC855E0B29F16D7400E81D0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC855DFC29F16D7400E81D0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC855E1E29F174D200E81D0C /* PostListInteractor.swift in Sources */,
+				DC855E3B29F2BC3000E81D0C /* PostDetailViewController.swift in Sources */,
+				DC855E4029F2BDA900E81D0C /* PostDetailProtocols.swift in Sources */,
+				DC855E2829F1761100E81D0C /* PostListProtocols.swift in Sources */,
+				DC855E2529F1754C00E81D0C /* PostModel.swift in Sources */,
+				DC855E2029F174DE00E81D0C /* PostListRouter.swift in Sources */,
+				DC855E1829F1746800E81D0C /* PostListViewController.swift in Sources */,
+				DC855E1C29F174C100E81D0C /* PostListPresenter.swift in Sources */,
+				DC855E0429F16D7400E81D0C /* AppDelegate.swift in Sources */,
+				DC855E3929F2BC1900E81D0C /* PostDetailPresenter.swift in Sources */,
+				DC855E0629F16D7400E81D0C /* SceneDelegate.swift in Sources */,
+				DC855E3729F2BC0700E81D0C /* PostDetailRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC855E0929F16D7400E81D0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC855E0A29F16D7400E81D0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC855E0E29F16D7500E81D0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC855E0F29F16D7500E81D0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC855E1229F16D7500E81D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC855E1329F16D7500E81D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC855E1529F16D7500E81D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5973QP9JP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VIPERDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.balaganesh.VIPERDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC855E1629F16D7500E81D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5973QP9JP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VIPERDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.balaganesh.VIPERDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC855DFB29F16D7400E81D0C /* Build configuration list for PBXProject "VIPERDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC855E1229F16D7500E81D0C /* Debug */,
+				DC855E1329F16D7500E81D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC855E1429F16D7500E81D0C /* Build configuration list for PBXNativeTarget "VIPERDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC855E1529F16D7500E81D0C /* Debug */,
+				DC855E1629F16D7500E81D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC855DF829F16D7400E81D0C /* Project object */;
+}
